@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="aluguel.css">
+
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>Aluguel</title>
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a id="ativa" href="aluguel.html">Aluguel</a>
+    <a href="listaClientes.html">Clientes</a>
+    <a href="listaBicicletas.html">Bicicletas</a>
+    <a href="historico.html">Hístorico</a>
+</div>
+<div class="main">
+    <div class="menu">
+        <div class="topo-menu"><i class='bx  bx-keyframe-ease-in'></i><h1>Aluguel</h1></div>
+        <div id="menu-pt1">
+            <section>
+                <form>
+
+                    <fieldset>
+                        <legend>Nome / CPF</legend>
+                    <select id="cliente" name="nome">
+<!--                        <option>Pedro Mota Maia</option>-->
+<!--                        <option>Juliana Elias Tocci</option>-->
+                    </select>
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend>Bicicleta</legend>
+                        <select id="bicicleta" name="bicicleta">
+<!--                            <option>Caloi-Cross</option>-->
+<!--                            <option>Bicicleta</option>-->
+                        </select>
+                    </fieldset>
+
+                        <fieldset>
+                            <legend>Dias</legend>
+                            <select id="dias" name="dias">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                            </select>
+                        </fieldset>
+
+                </form>
+                <button type="button" onclick="confirmar()">Confirmar</button>
+            </section>
+        </div>
+    </div>
+</div>
+<script src="aluguel.js"></script>
+</body>
+</html>

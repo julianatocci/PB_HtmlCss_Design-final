@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #0d253f;
+}
+
+.topnav {
+    background-color: #ffcc89;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #0d253f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: ease 0.3s;
+}
+.topnav a:hover {
+    background-color: #0d253f;
+    color: #ffcc89;
+}
+#ativa {
+    background-color: #0d253f;
+    color: #ffcc89;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    margin-top: 50px ;
+    height: 500px;
+    width: 80%;
+    background-image: url("https://muralsyourway.vtexassets.com/arquivos/ids/231564/Cyclist-Riding-Mountain-Bike-Wallpaper-Mural.jpg?v=638164845806230000");
+    background-size: cover;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.texto_ban {
+    height: auto;
+    width: fit-content;
+    background-color: #0d253f;
+    color: antiquewhite;
+    font-size: 50px;
+    padding: 10px;
+}
+#txtb_pt1 {
+    border-radius: 0 0 20px 0;
+}
+#txtb_pt2 {
+    border-radius: 0 0 20px 0;
+}
+
+/* Icons no Banner */
+.ban-perfis {
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+.perfil {
+    padding: 5px;
+    display: flex;
+    margin-left: 10px;
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: rgba(94, 83, 94, 0.55);
+    border: 1px solid white;
+}
+.perfil img {
+    border-radius: 50%;
+}
+.perfil-txt {
+    color: white;
+    padding-left: 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.perfil-txt h2 {
+    font-size: 20px;
+}
+.perfil-txt span {
+    color: #e1e1e1;
+    font-size: 15px;
+}
+/* Icons Banner -FIM- */
+
+.cards {
+    display: flex;
+    margin-top: 10px;
+    height: fit-content;
+    width: 80%;
+    justify-content: space-between;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: #0a1c2f;
+    border-radius: 20px;
+    padding: 10px;
+    transition: ease 1s;
+}
+.cards a {
+    text-decoration: none;
+    color: transparent;
+}
+.card:hover {
+    border: 1px solid #ffcc89;
+    height: 320px;
+    width: 270px;
+}
+.card-pt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    height: 60%;
+    width: auto;
+    color: #ffcc89;
+    background-color: #051726;
+    border-radius: 20px;
+    transition: ease 1s;
+}
+.card-pt1:hover {
+    background-color: #ffcc89;
+    color: #0d253f;
+}
+.card-pt2 {
+    margin-top: 5px;
+    color: white;
+    height: 40%;
+    width: auto;
+    font-size: 10px;
+}

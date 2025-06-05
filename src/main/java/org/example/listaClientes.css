@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #0d253f;
+    background-image: url("https://i.pinimg.com/originals/5f/73/95/5f73951b1a1de5f72f457ad3f92f3d7c.jpg");
+    background-blend-mode: darken;
+}
+
+.topnav {
+    background-color: #ffcc89;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #0d253f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: ease 0.3s;
+}
+.topnav a:hover {
+    background-color: #0d253f;
+    color: #ffcc89;
+}
+#ativa {
+    background-color: #0d253f;
+    color: #ffcc89;
+}
+
+.cabecalho {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho h1{
+    font-size: 50px;
+    color: white;
+    margin-right: auto;
+    margin-left: 200px;
+}
+.cabecalho h1 i {
+    font-size: 60px;
+    margin-right: 10px;
+}
+.barra {
+    height: 10px;
+    width: 80%;
+    background-color: #ffcc89;
+    border-radius: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main table {
+    margin-top: 15px;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #cbcbcb;
+    border-radius: 20px;
+}
+.main table th {
+    background-color: #ffcc89;
+}
+.main table td, th {
+    text-align: center;
+    padding: 8px;
+}
+.main table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
